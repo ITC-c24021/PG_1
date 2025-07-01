@@ -1,0 +1,6 @@
+print(0.3 == 0.1 + 0.1 + 0.1)
+print(0xf)
+print(chr(12354))
+a = input("天気を入力してください:")
+print(f"今日は{a}です")
+print(a[-1])
