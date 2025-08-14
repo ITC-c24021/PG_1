@@ -9,7 +9,5 @@ for i in range(2,101):
     if isPrime:
         prime_list.append(i)
 
-li = list(prime_list[i:i+10] for i in range(0,len(prime_list),10))
-
-for i in li:
-    print(",".join(str(n) for n in i))
+for i in range(0,len(prime_list),10):
+    print(",".join(str(n) for n in prime_list[i:i+10]))
